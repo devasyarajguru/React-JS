@@ -1,8 +1,12 @@
 function Footer()
 {
+    var mycolors = {
+        backgroundColor:"green",
+        color:"white"
+    }
     return(
         <div>
-            <h2>Footer</h2>
+            <h2 style={mycolors}>Footer</h2>
         </div>
     );
 }
