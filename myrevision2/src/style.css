@@ -1,0 +1,23 @@
+.mycss
+{
+    background-color: aqua;
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+}
+
+#btn
+{
+    background-color: chartreuse;
+    color: red;
+    font-size :20px;
+    padding: 5px;
+    border-radius: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#btn:hover
+{
+    background-color: red;
+    color:chartreuse ;
+}
