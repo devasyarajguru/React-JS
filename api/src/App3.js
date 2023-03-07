@@ -33,7 +33,7 @@ class App3 extends React.Component {
                             <td>{value.category}</td>
                             <td>{value.rating.rate}</td>
                             <td>{value.rating.count}</td>
-                            <img src='{value.image}'></img>
+                            <img src={value.image} style={{height:'150px'}}></img>
                         </tr>
                     </table>
              
