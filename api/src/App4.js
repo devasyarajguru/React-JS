@@ -18,11 +18,11 @@ class App4 extends React.Component
         .then(response => response.json())
         .then(response =>
             {
-                this.setState({myarr:response});
+                this.setState({myarr:response["quotes"]});
                 console.log(response);
+                // alert(response.quotes[0);
             })
-
-            
+        
     }
 
     render()
@@ -32,14 +32,11 @@ class App4 extends React.Component
 
                 {this.state.myarr.map(value =>
                     (
-                        <table index={value.quotes.id}>
+                        <table index={value.quote.id}>
                         
                             <tr>
-                                <td>{value.quotes.id}</td>
-                                <td>{value.total}</td>
-                                {/* <td>{value.id}</td>
-                                <td>{value.per_page}</td>
-                                <td>{value.data.id}</td> */}
+                                <td>{value.quote}</td>
+                                
                             </tr>
                         </table>
                     ))}
