@@ -36,6 +36,7 @@ class App4 extends React.Component
                         
                             <tr>
                                 <td>{value.quote}</td>
+                                <td>{value.id}</td>
                                 
                             </tr>
                         </table>
