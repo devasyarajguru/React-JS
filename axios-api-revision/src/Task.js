@@ -4,7 +4,8 @@ import './external.css';
 class Task extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { myarr:[] };
+        this.state = { 
+          myarr:[] };
     }
 
     componentDidMount() {

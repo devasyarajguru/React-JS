@@ -26,6 +26,7 @@ function App() {
           <Link to='/SubCategory-F'>SubCategory-F</Link>
           <Link to='/Task'>Task</Link>
           </div>
+          <h1 id='head'>API Task using Get method</h1>
           <Routes>
             <Route path='/Product-C' element={<App1/>}></Route>
             <Route path='/Category-C' element={<App3/>}></Route>
