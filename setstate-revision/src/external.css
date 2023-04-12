@@ -1,0 +1,32 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+
+}
+
+.button1
+{
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.button2
+{
+    font-size: 30px;
+
+}

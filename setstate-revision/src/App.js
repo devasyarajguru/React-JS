@@ -1,10 +1,12 @@
 import React from 'react';
-import App1 from './App1';
+import Counter from './Counter';
+// import App1 from './App1';
 function App()
 {
   return(
     <>
-      <App1/>
+      {/* <App1/> */}
+      <Counter/>
     </>
   );
 }
