@@ -2,7 +2,14 @@ import React from 'react';
 
 function Hook1(props) {
 
-    const[name,myfunc] = React.useState('Red');
+    const[name,myfunc] = React.useState('');
+
+    React.useEffect(()=>
+    {
+        myfunc('Yellow');
+    }
+        
+    ,[])
 
     return (
         <>
