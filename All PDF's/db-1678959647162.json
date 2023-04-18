@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-sdadsdada",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-oiokjllmkmklmkerver",
+      "author": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "json-huhiuh78jknkkkj",
+      "author": "typicode"
+    }
+  ]
+}
